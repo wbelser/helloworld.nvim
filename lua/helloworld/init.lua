@@ -1,7 +1,7 @@
 local M = {}
 
 -- Default config
-M.config = {
+M.options = {
 	name = "World",
 }
 -- Setup function that merges user options
