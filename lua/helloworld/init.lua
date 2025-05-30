@@ -4,10 +4,9 @@ local M = {}
 M.config = {
 	name = "World",
 }
-
--- Setup function
+-- Setup function that merges user options
 function M.setup(opts)
-	M.config = vim.tbl_deep_extend("force", M.config, opts or {})
+	M.options = vim.tbl_deep_extend("force", M.options, opts or {})
 end
 
 function M.hello()
