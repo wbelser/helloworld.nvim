@@ -12,3 +12,11 @@ Just trying to understand this nvim plugin world...
     },
 }
 ```
+
+# Command
+
+```vim
+:HelloWorldDisplay
+```
+
+This should display a hello to the name you set.
