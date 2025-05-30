@@ -10,7 +10,7 @@ function M.setup(opts)
 end
 
 function M.hello()
-	local message = string.format("Hello %s from wbelser/helloworld.nvim!", M.config.name)
+	local message = string.format("Hello %s from wbelser/helloworld.nvim!", M.options.name)
 	vim.notify(message, vim.log.levels.INFO)
 end
 
