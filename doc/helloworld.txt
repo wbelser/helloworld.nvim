@@ -1,0 +1,39 @@
+*helloworld.txt*    Plugin to say hello from helloworld.nvim
+
+==============================================================================
+DESCRIPTION                                                    *helloworld*
+
+This is a small demo plugin that displays a greeting message using
+`:HelloWorldDisplay`.
+
+You can configure it using Lazy.nvim like this:
+
+    {
+      "wbelser/helloworld.nvim",
+      opts = {
+        name = "Bill",
+      }
+    }
+
+==============================================================================
+COMMANDS                                                       *helloworld-commands*
+
+:HelloWorldDisplay     Show a greeting message in a notification.
+
+==============================================================================
+CONFIGURATION                                                 *helloworld-config*
+
+You can configure the plugin by passing options:
+
+    require("helloworld").setup({
+      name = "Bill"
+    })
+
+==============================================================================
+SEE ALSO
+
+:help :helptags     For generating the help index
+:help write-local-help
+
+==============================================================================
+
