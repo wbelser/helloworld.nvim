@@ -18,7 +18,7 @@ You can configure it using Lazy.nvim like this:
 ==============================================================================
 COMMANDS                                                       *helloworld-commands*
 
-:HelloWorldDisplay     Show a greeting message in a notification.
+:HelloWorldDisplay     Show a greeting message in a notification.   *HelloWorldDisplay*
 
 ==============================================================================
 CONFIGURATION                                                 *helloworld-config*
